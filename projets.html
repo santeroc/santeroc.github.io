@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/0833333164.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Mes Projets</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+        <div class="txtportrait"><font size="2">Date de la dernière mise à jour du site : Septembre 2023.</font></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item current">
+          <a href="index.html" class="nav-link">
+            Accueil
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="documents.html" class="nav-link">
+            Mes Documents
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="projets.html" class="nav-link">
+            Mes projets
+          </a>
+        </li>
+<!--
+        <li class="nav-item">
+          <a href="actualites.html" class="nav-link">
+            Mon Actualité
+          </a>
+        </li>
+-->
+      </ul>
+    </nav>
+  </header>
+  <main id="about">
+    <div class="about-info">
+      <div class="bio">
+        <h1 class="ml10">
+          <span class="text-wrapper">
+            <span class="letters">Mes Projets...</span>
+          </span>
+        </h1>
+        <p id="bio">Je vous propose de découvrir sur cette page un aperçu de mes réalisations personnelles et professionnelles.
+		  <br>Publiées sous licence Common Creative-BY (CC-BY) / GPLv3, vous pouvez vous en inspirer librement. N'hésitez pas à visiter ma page consacrée à mes Documentations...
+        </p>
+      </div>
+   
+      <div class="job job-1">
+        <h2><a href="./projets/Backup_DB_Windows.pdf" target="blank" class="btn-light">Sauvegarde des bases Oracle / Windows</a></h2>
+        <p>Ce document vous propose d'appréhender les sauvegardes des bases Oracle (dont la taille n'est pas trop élevée) via les modules imp/exp sous Windows.</p>
+      </div>
+
+      <div class="job job-2">
+        <h2><a href="./projets/Backup_DB_Linux.pdf" target="blank" class="btn-light">Sauvegarde des bases Oracle / Linux</a></h2>
+        <p>Ce document vous propose d'appréhender les sauvegardes des bases Oracle (dont la taille n'est pas trop élevée) via les modules imp/exp sous Linux. C'est aussi le point de départ au Menu De Gestion Des Bases Oracle.</p>
+      </div>
+
+      <div class="job job-3">
+        <h2><a href="./projets/Menu_Gestion.pdf" target="blank" class="btn-light">Menu De Gestion Des Bases Oracle</a></h2>
+        <p>Ce projet vous propose de découvrir un menu de gestion des bases Oracle sous Linux permettant de simplifier les opérations de démarrage, d'arrêt, de sauvegarde et de restauration des bases.</p>
+         <h2><a class="btn-light" href="https://github.com/santeroc/Menu-De-Gestion-Des-Bases-Oracle" role="button" target="blank"><i class="fab fa-github"></i> Consulter le projet dans mon GitHub</a></h2>
+      </div>
+
+      <div class="job job-4">
+        <h2><a href="./projets/WeMos-D1-WKS-EVO-Jeedom.pdf" target="blank" class="btn-light">Gestion d'un onduleur solaire hybride WKS EVO</a></h2>
+        <p>Il s'agit d'une maquette fonctionnelle qui m'a permis d'appréhender la mise en oeuvre d'une installation photovoltaique. Ce projet a représenté huit mois d’étude pendant lesquelles j’ai découvert : 
+		  <ul>
+		    <li>les différentes sortent de régulateur solaire (MPPT/PWM),</li>
+			<li>les différents onduleurs hybrides solaires,</li>
+			<li>les différents types de panneaux solaires (monocristallin, shingled,..),</li>
+			<li>le choix d'un support et le calcul du lestage pour la prise au vent,</li>
+			<Li>les différentes batteries (AGM, Lithium,..),</li>
+			<li>le dimensionnement des sections de câble de cuivre,</li>
+			<li>le fonctionnement des disjoncteurs différentiels en face des différents régimes de mise à la terre (régime de neutre TT),</li>
+			<li>les différents types de parafoudre,</li>
+			<li>les IoT avec Arduino / WeMos et la gestion de composants électroniques divers (sonde DHT22, relais, module RS232C),</li>
+			<li>le protocole de communication PIP-HS/MS/MSX & HYBRID V des cartes VOLTRONIC implantées sur de nombreux modèles d'onduleurs hybrides,</li>
+			<li>la règlementation Française pour installer l'ensemble chez soi (déclaration, consensuel,..),</li>
+			<li>le développement, d'une part, d'un module permettant de mettre à l'heure l'onduleur en regard des changements d'heures via NTP,</li>
+			<li>le développement, d'autre part, d'un serveur web permettant à une plateforme domotique comme Jeedom d'extraire les statistiques de production et de consommation électrique,</li>
+			<li>la Concenption d'une façade avec FreeCAD et son impression en 3D.</li>
+		  </ul>
+		  L'assemblage du système a été réalisé en deux jours. Un mois d'observation a été nécessaire pour trouver les bons paramètres à introduire dans l'onduleur.
+		</p>
+         <h2><a class="btn-light" href="https://github.com/santeroc/WeMos-D1-WKS-EVO-Jeedom.git" role="button" target="blank"><i class="fab fa-github"></i> Consulter le projet dans mon GitHub</a></h2>
+      </div>
+ 
+      <div class="job job-5">
+        <h2><a href="./projets/WeMos-D1-WeVolet-Jeedom.pdf" target="blank" class="btn-light">Système De Gestion d'un volet roulant</a></h2>
+        <p>Ce projet permet de réaliser à l'aide d'un module WeMos-D1 accompagné de relais, un système pour remplacer une commande manuelle à trois boutons pilotant un volet roulant. Une fois installé il est possible de commander le volet roulant à l'aide d'un navigateur web ou d'un script dans une plateforme domotique comme Jeedom.</p>
+         <h2><a class="btn-light" href="https://github.com/santeroc/WeMos-D1-WeVolet-Jeedom.git" role="button" target="blank"><i class="fab fa-github"></i> Consulter le projet dans mon GitHub</a></h2>
+      </div>
+
+      <div class="job job-6">
+        <h2><a href="./documents/Configuration_AD_Yubico.pdf" target="blank" class="btn-light">Configuration Login AD avec PKI & Yubikey</a></h2>
+        <p>Ce projet <a style="color:red">encore en cours de réalisation</a> a pour ambition de mettre en oeuvre l'authentification Windows / Active Directory à l'aide de clefs Yubikey.
+		   Concrètement, la mise en place de ce système permet aux utilisateurs de s'affranchir des identifiants et des mots de passe pour ouvrir leurs ordinateurs et leurs applications.
+		   Ce système fortement encouragé par l'ANSSI renforce singulièrement la sécurité de la structure contre l'usurpation d'identité et le vol de mot de passe. Ce projet m'a permis de découvrir :
+		  <ul>
+		    <li>les différentes clefs d'authentification fortes chez <a class="btn-lnk" href="https://www.yubico.com/?lang=fr" target="blank">YUBICO</a>,</li>
+		    <li>les différents protocoles d'authentification forte (OTP, FIDO/FIDO2, OpenPGP, SmartCard PIV, WebAuthn),</li>
+		    <li>la configuration spécifique d'une clef <a class="btn-lnk" href="https://www.yubico.com/?lang=fr" target="blank">YUBICO</a>,</li>
+		    <li>la mise en oeuvre d'une PKI dans un environnement Windows 2019 AD,</li>
+		    <li>le fonctionnement concret des certificats publics et privés (également avec OpenPGP),</li>
+			<li>le concept de sécurité renforcé côté serveur avec des clefs HSM,</li>
+		   </ul> 
+		</p>
+      </div>
+<!--
+      <div class="job job-7">
+        <h2><a href="./documents/Install_Patch_Serveur_9206.pdf" target="blank" class="btn-light">Application Patch Oracle 9.2.0.6 Sous RH ES4 SP1</a></h2>
+        <p>Ce document décrit comment appliquer un patch 9.2.0.6 sur un serveur Oracle 9i sous Linux RH ES4 SP1.</p>
+      </div>
+
+      <div class="job job-8">
+        <h2><a href="./documents/Install_Patch_Serveur_9207.pdf" target="blank" class="btn-light">Application Patch Oracle 9.2.0.7 Sous RH ES4 SP1</a></h2>
+        <p>Ce document décrit comment appliquer un patch 9.2.0.7 sur un serveur Oracle 9i sous Linux RH ES4 SP1.</p>
+      </div>
+
+      <div class="job job-9">
+        <h2><a href="./documents/Install_Serveur_Oracle_10g.pdf" target="blank" class="btn-light">Installation De Oracle 10.2.0.1 Sous RH ES4 SP1</a></h2>
+        <p>Ce document décrit comment installer Oracle 10gR2 sous Linux RH ES4 SP1.</p>
+      </div>
+-->	  
+    </div>
+  
+    </main>
+  <script src="./script/main.js"></script>
+
+</body>
+</html> 
